@@ -154,6 +154,7 @@
 
 .link {
   color: var(--text-color, #f1b2ce);
+  text-shadow: 2px 2px 0 #ff0070;
 }
 
 .link:hover {
