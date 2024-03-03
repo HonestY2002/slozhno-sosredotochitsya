@@ -3,10 +3,38 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
+ 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
+--title-color: #db00ff;
+--text-color: #f1b2ce;
+--background-image: url(../images/cover-image-dark.png);
+--accent-color: #ff0070;
+--accent-text-color: #000028;
+--heading-shadow-color: #ff0070;
+--heading-text-color: #ff0070;
+--otline-color: 1px solid rgba(255, 0, 112, 0.40);
+--rec-indicator-color: #ff0070;
+--background-color:var(--accent-text-color);
+--after-before-border: #ff0070;
+}
+
+@media (prefers-solor-scheme: dark) {
+  :root {
+--title-color: #db00ff;
+--text-color: #f1b2ce;
+--background-image: url(../images/cover-image-dark.png);
+--accent-color: #ff0070;
+--accent-text-color: #ff0070;
+--heading-shadow-color: #ff0070;
+--heading-text-color: #000028;
+--otline-color: 1px solid rgba(255, 0, 112, 0.40);
+--rec-indicator-color: #ff0070;
+--background-color:var(--accent-text-color);
+--after-before-border: #ff0070;
+  }
+}
+
+/* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-}
