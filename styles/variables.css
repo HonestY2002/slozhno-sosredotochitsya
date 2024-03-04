@@ -16,3 +16,16 @@
   --after-before-border: #ff0070;
   --background-color: var(--accent-text-color);
 }
+
+@media (min-width: 375px) {
+  .content__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 375px) {
+  .content__gallery {
+
+  }
+}

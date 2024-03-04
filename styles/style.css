@@ -101,7 +101,7 @@
 }
 
 .header-description {
-  font-weight: 18px;
+  font-size: 18px;
   margin-block-start: 114px;
   margin-inline-start: 513px;
   margin-block-end: 134px;
@@ -183,14 +183,15 @@
   margin-inline-start: 20px;
 }
 
-.content__section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .question {
   color: var(--accent-color, #ff0070);
   margin-inline-start: 20px;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .content__gallery {

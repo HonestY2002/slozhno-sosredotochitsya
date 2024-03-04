@@ -21,7 +21,8 @@
   background-image: url(../images/cover-image-light.png);
 }
 
-.page.theme_light .REC {
+
+.REC {
   display: none;
 }
 
