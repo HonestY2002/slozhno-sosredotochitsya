@@ -32,7 +32,7 @@
   }
 }
 
-@media (width <= 375px) {
+@media (375px > width <= 768px) {
   .header-description {
     margin-inline-start: 10px;
     width: 355px;
@@ -40,7 +40,7 @@
   }
 }
 
-@media (width <= 768px) {
+@media (768px <= width < 1024px) {
   .header-description {
     margin-inline-start: 384px;
     width: 364px;
@@ -48,7 +48,7 @@
   }
 }
 
-@media (width <= 1024px) {
+@media (width >= 1024px) {
   .header-description {
     margin-inline-start: 517px;
   }
@@ -56,6 +56,5 @@
 
 @media (width <= 375px) {
   .content__gallery {
-    
   }
 }

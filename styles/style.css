@@ -2,7 +2,6 @@
 /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 
 .page {
-  width: 1024px;
   margin: 0px auto;
   font-size: 18px;
   font-family: IBM Plex Mono;
@@ -103,7 +102,6 @@
 .header-description {
   font-size: 18px;
   margin-block-start: 114px;
-  margin-right: 20px;
   background-color: #ff0070;
   font-weight: 700;
   line-height: 23px;
