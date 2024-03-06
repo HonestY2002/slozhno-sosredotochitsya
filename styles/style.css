@@ -2,13 +2,15 @@
 /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 
 .page {
+  width: 1024px;
+  margin: 0px auto;
   font-size: 18px;
   font-family: IBM Plex Mono;
   line-height: 1, 3;
   font-weight: 400;
   color: var(--description-color);
   background-color: var(--background-color);
-  background-image: url(../images/cover-image-dark.png);
+  background-image: var(--background-image);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +18,6 @@
 }
 
 .header {
-  max-inline-size: 1440px;
   block-size: 768px;
   background-size: cover;
   background-position: center;
@@ -33,12 +34,12 @@
 }
 
 .header__theme-menu-list {
-  display: flex;
+  display: grid;
+  align-items: center;
   justify-content: center;
-  align-self: center;
   gap: 10px;
-  padding-top: 20px;
-  margin-bottom: 273px;
+  margin-block-start: 20px;
+  margin-block-end: 319px;
 }
 
 .header__theme-menu-button {
@@ -69,7 +70,6 @@
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   color: #db00ff;
   position: relative;
-  align-self: center;
   text-shadow: 4px 4px 0 #ff0070;
 }
 
@@ -103,14 +103,13 @@
 .header-description {
   font-size: 18px;
   margin-block-start: 114px;
-  margin-inline-start: 513px;
-  margin-block-end: 134px;
   margin-right: 20px;
   background-color: #ff0070;
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+  margin-block-end: 20px;
 }
 
 .title-decor {
@@ -148,8 +147,8 @@
   background-color: #ff0070;
   color: var(--accent-text-color, #000028);
   margin-block-end: 20px;
-  margin-inline-start: 20px;
   margin-block-start: 20px;
+  margin-inline-start: 20px;
 }
 
 .link {
@@ -171,6 +170,13 @@
   outline: 1px solid var(--text-color, #f1b2ce);
 }
 
+.content__section {
+  gap: 20px;
+}
+
+.section__question {
+}
+
 .main__text {
   font-family: IBM Plex Mono;
   font-size: 18px;
@@ -185,13 +191,13 @@
 
 .question {
   color: var(--accent-color, #ff0070);
-  margin-inline-start: 20px;
   font-family: IBM Plex Mono;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
+  margin-inline-start: 20px;
 }
 
 .content__gallery {

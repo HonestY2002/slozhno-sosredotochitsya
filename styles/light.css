@@ -17,12 +17,7 @@
   --after-before-border: #353430;
 }
 
-.page.theme_light {
-  background-image: url(../images/cover-image-light.png);
-}
-
-
-.REC {
+.theme_light .REC {
   display: none;
 }
 
