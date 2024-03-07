@@ -17,7 +17,7 @@
 }
 
 .header {
-  block-size: 768px;
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,10 +35,7 @@
 .header__theme-menu-list {
   display: grid;
   align-items: center;
-  justify-content: center;
   gap: 10px;
-  margin-block-start: 20px;
-  margin-block-end: 319px;
 }
 
 .header__theme-menu-button {
@@ -55,7 +52,6 @@
 
 .header__theme-menu-button:focus-visible {
   outline: var(--outline);
-  padding: 2px 13px 5px 13px;
 }
 
 .header__theme-menu-button:hover {
@@ -100,14 +96,13 @@
 }
 
 .header-description {
+  display: grid;
   font-size: 18px;
-  margin-block-start: 114px;
   background-color: #ff0070;
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  margin-block-end: 20px;
 }
 
 .title-decor {
@@ -144,35 +139,11 @@
   text-align: left;
   background-color: #ff0070;
   color: var(--accent-text-color, #000028);
-  margin-block-end: 20px;
-  margin-block-start: 20px;
-  margin-inline-start: 20px;
-}
-
-.link {
-  color: var(--text-color, #f1b2ce);
-  text-shadow: 2px 2px 0 #ff0070;
-}
-
-.link:hover {
-  border-bottom: #f1b2ce;
-  text-decoration-thickness: 0.8px;
-  text-underline-offset: 3px;
-}
-
-.link:focus {
-  outline: none;
-}
-
-.link:focus-visible {
-  outline: 1px solid var(--text-color, #f1b2ce);
 }
 
 .content__section {
+  display: grid;
   gap: 20px;
-}
-
-.section__question {
 }
 
 .main__text {
@@ -183,8 +154,12 @@
   letter-spacing: 0em;
   text-align: left;
   color: var(--text-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.adviсe {
   margin-block-end: 20px;
-  margin-inline-start: 20px;
 }
 
 .question {
@@ -195,18 +170,11 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  margin-inline-start: 20px;
 }
 
-.content__gallery {
-  list-style-type: none;
+.section__question {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  block-size: 136.458vh;
-  inline-size: 100%;
-  margin-inline-start: 20px;
-  padding-right: 20px;
 }
 
 .content__gallery-image {
@@ -214,31 +182,12 @@
   object-position: center;
   inline-size: 100%;
   block-size: 100%;
+  gap: 20px;
 }
 
-.sunset {
-  grid-column: span 2;
-  grid-row: span 1;
-}
-
-.ice-cream {
-  grid-column: span 1;
-  grid-row: span 2;
-}
-
-.tape {
-  grid-column: span 1;
-  grid-row: span 2;
-}
-
-.books {
-  grid-column: span 1;
-  grid-row: span 1;
-}
-
-.street {
-  grid-column: span 2;
-  grid-row: span 1;
+.content__image {
+  display: grid;
+  gap: 20px;
 }
 
 .footer {
