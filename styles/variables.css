@@ -52,9 +52,11 @@
 @media (768px <= width < 1024px) {
   .decorate__element {
     top: 20px;
+    right: 20px;
   }
   .decorated-zone::before {
     top: 20px;
+    right: 20px;
   }
   .decorated-zone::after {
     left: 20px;
@@ -65,20 +67,22 @@
 @media (width >= 1024px) {
   .decorated-zone::after {
     left: 20px;
-    margin-block-start: 80px;
+    margin-block-start: 86px;
   }
 }
 
 @media (375px <= width < 768px) {
   .decorate__element {
     top: 10px;
+    right: 10px;
   }
   .decorated-zone::before {
     top: 10px;
+    right: 10px;
   }
   .decorated-zone::after {
     left: 10px;
-    margin-block-start: 21px;
+    margin-block-start: 26px;
   }
 }
 
@@ -100,7 +104,7 @@
   }
 }
 
-@media (375px <= width <= 768px) {
+@media (375px <= width < 768px) {
   .header__theme-menu-list {
     padding-top: 71px;
     padding-right: 10px;
@@ -122,7 +126,7 @@
 
 @media (768px <= width < 1024px) {
   .header-title {
-    margin-block-start: 270px;
+    margin-block-start: 230px;
   }
 }
 
@@ -173,10 +177,10 @@
   }
 }
 
-
 @media (width >= 1024px) {
   .content__section {
-    grid-template-columns: 1fr 69%;
+    grid-template-columns: 1fr 67%;
+    margin-block-start: 20px;
   }
 }
 
@@ -184,6 +188,7 @@
   .section__question {
     grid-template-columns: repeat(3, 1fr);
     grid-column: 2 / 4;
+    margin-block-start: 20px;
   }
 }
 
