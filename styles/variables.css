@@ -158,7 +158,6 @@
 
 @media (width >= 1024px) {
   .content__section {
-    margin-block-start: 60px;
     grid-template-columns: 1fr 2fr;
   }
 }
