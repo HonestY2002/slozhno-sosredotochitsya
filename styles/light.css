@@ -15,6 +15,7 @@
   --rec-indicator-color: transparent;
   --backkground-color: white;
   --after-before-border: #353430;
+  --header-botton: #353430;
 }
 
 .theme_light .REC {
@@ -33,6 +34,7 @@
     --rec-indicator-color: transparent;
     --background-color: #fff1f7;
     --after-before-border: #353430;
+    --header-botton: #353430;
   }
 }
 /* сохраните этот селектор в приведённом виде.

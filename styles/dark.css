@@ -16,6 +16,7 @@
 --rec-indicator-color: #ff0070;
 --background-color:var(--accent-text-color);
 --after-before-border: #ff0070;
+--header-botton: #ff0070;
 }
 
 @media (prefers-solor-scheme: dark) {
@@ -31,6 +32,7 @@
 --rec-indicator-color: #ff0070;
 --background-color:var(--accent-text-color);
 --after-before-border: #ff0070;
+--header-botton: #ff0070;
   }
 }
 

@@ -24,7 +24,7 @@
 }
 
 .header__text {
-  background-color: #ff0070;
+  background-color: var(--accent-color);
   color: var(--accent-text-color, #000028);
   font-weight: 700;
   line-height: 23px;
@@ -43,7 +43,7 @@
   border: none;
   padding: 2px 13px 5px 13px;
   text-transform: lowercase;
-  color: var(--header-button);
+  color: var(--header-botton);
 }
 
 .header__theme-menu-button:focus {
