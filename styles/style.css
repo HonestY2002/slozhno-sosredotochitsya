@@ -82,7 +82,6 @@
   border-top: 1px solid var(--after-before-border);
   border-right: 1px solid var(--after-before-border);
   right: 20px;
-  top: 20px;
 }
 
 .decorated-zone::after {
@@ -93,6 +92,7 @@
   border-bottom: 1px solid var(--after-before-border);
   border-left: 1px solid var(--after-before-border);
   left: 20px;
+  margin-block-start: 85px;
 }
 
 .header-description {
@@ -114,7 +114,6 @@
 
 .decorate__element {
   position: absolute;
-  top: 20px;
   right: 20px;
   color: var(--accent-color, #ff0070);
 }
@@ -191,11 +190,11 @@
 }
 
 .content__gallery {
-    list-style-type: none;
-    display: grid;
-    gap: 20px;
-    block-size: 136.458vh;
-    inline-size: 100%;
+  list-style-type: none;
+  display: grid;
+  gap: 20px;
+  block-size: 136.458vh;
+  inline-size: 100%;
 }
 
 .footer {

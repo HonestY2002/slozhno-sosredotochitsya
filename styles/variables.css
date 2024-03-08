@@ -19,19 +19,19 @@
 }
 
 @media (width >= 1024px) {
-  .page {
+  .main {
     padding: 0 20px;
   }
 }
 
 @media (768px <= width < 1024px) {
-  .page {
+  .main {
     padding: 0 20px;
   }
 }
 
 @media (width < 768px) {
-  .page {
+  .main {
     padding: 0 10px;
   }
 }
@@ -51,7 +51,25 @@
 }
 
 @media (768px <= width < 1024px) {
-  .header__theme-menu-list {
+  .decorate__element {
+  }
+}
+
+@media (768px <= width < 1024px) {
+  .header {
+    min-height: 1024px;
+  }
+}
+
+@media (368px <= width < 768px) {
+  .header {
+    min-height: 668px;
+  }
+}
+
+@media (width >= 1024px) {
+  .header {
+    min-height: 768px;
   }
 }
 
