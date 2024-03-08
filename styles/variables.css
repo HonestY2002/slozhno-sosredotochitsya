@@ -65,7 +65,7 @@
 @media (width >= 1024px) {
   .decorated-zone::after {
     left: 20px;
-    margin-block-start: 71px;
+    margin-block-start: 80px;
   }
 }
 
@@ -173,9 +173,10 @@
   }
 }
 
+
 @media (width >= 1024px) {
   .content__section {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 69%;
   }
 }
 
