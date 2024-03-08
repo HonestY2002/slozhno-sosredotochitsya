@@ -96,8 +96,7 @@
   height: 25px;
   border-bottom: 1px solid var(--after-before-border);
   border-left: 1px solid var(--after-before-border);
-  left: 20px;
-  margin-block-start: 85px;
+  margin-block-start: px;
 }
 
 .header-description {
