@@ -190,6 +190,14 @@
   gap: 20px;
 }
 
+.content__gallery {
+    list-style-type: none;
+    display: grid;
+    gap: 20px;
+    block-size: 136.458vh;
+    inline-size: 100%;
+}
+
 .footer {
   position: relative;
   display: grid;
