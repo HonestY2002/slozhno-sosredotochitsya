@@ -62,7 +62,6 @@
 }
 
 .header-title {
-  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   color: #db00ff;
   position: relative;
   text-shadow: 4px 4px 0 #ff0070;
@@ -155,10 +154,6 @@
   color: var(--accent-text-color, #000028);
 }
 
-.conteiner {
-  margin-block-end: 80px;
-}
-
 .main__text {
   weight: 400;
   size: 18px;
@@ -194,7 +189,6 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  margin-block-end: 20px;
 }
 
 .second__conteiner {
