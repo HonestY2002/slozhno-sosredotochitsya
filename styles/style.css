@@ -93,7 +93,6 @@
   height: 25px;
   border-bottom: 1px solid var(--after-before-border);
   border-left: 1px solid var(--after-before-border);
-  margin-block-start: px;
 }
 
 .header-description {
@@ -208,7 +207,6 @@
   list-style-type: none;
   display: grid;
   gap: 20px;
-  block-size: 136.458vh;
   inline-size: 100%;
 }
 
@@ -217,12 +215,12 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  min-height: 768px;
   height: 100vh;
-  font-size: clamp(7.25rem, 5.8125rem + 6.25vw, 9.8125rem);
+  min-height: 668px;
 }
 
 .footer__title {
   text-shadow: 2px 2px 0 #ff0070;
   color: var(--title-color);
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
 }
