@@ -23,17 +23,19 @@
   .header__theme-menu-list {
     justify-content: center;
     grid-template-columns: 70px 70px 70px;
-    margin-block-start: 20px;
+    padding-top: 20px;
   }
   .decorated-zone::after {
     left: 20px;
-    margin-block-start: 86px;
+    bottom: 20px;
   }
   .decorate__element {
     right: 20px;
+    top: 20px;
   }
   .decorated-zone::before {
     right: 20px;
+    top: 20px;
   }
   .conteiner {
     margin-block-end: 80px;
@@ -59,33 +61,17 @@
   }
   .first__section {
     grid-template-columns: 1fr 67%;
-    margin-block-start: 40px;
+    margin-block-start: 60px;
   }
-  .four__conteiner {
+  .four__section {
     height: 1091px;
-  }
-  .footer {
-    max-height: 768px;
-    margin-block-start: 63px;
-  }
-  .decorated-zone::before {
-    margin-block-end: 700px;
-  }
-  .decorated-zone::after {
-    margin-block-start: 705px;
   }
   .third__section {
     grid-template-columns: 1fr 2fr;
   }
   .footer {
     max-height: 768px;
-    margin-block-start: 63px;
-  }
-  .decorated-zone::before {
-    margin-block-end: 700px;
-  }
-  .decorated-zone::after {
-    margin-block-start: 705px;
+    margin-block-start: 64px;
   }
   .footer__title {
     font-size: clamp(9.8125rem, 9.8125rem + 0vw, 9.8125rem);
@@ -106,7 +92,7 @@
   }
   .decorated-zone::after {
     left: 20px;
-    margin-block-start: 137px;
+    bottom: 20px;
   }
   .conteiner {
     margin-block-end: 80px;
@@ -141,18 +127,11 @@
   .question {
     width: 236px;
   }
-  .four__conteiner {
-    max-height: 780px;
+  .four__section {
+    height: 780px;
   }
   .footer {
     max-height: 1024px;
-    margin-block-start: 105px;
-  }
-  .decorated-zone::before {
-    margin-block-end: px;
-  }
-  .decorated-zone::after {
-    margin-block-start: 960px;
   }
   .footer__title {
     font-size: clamp(7.5rem, 7.5rem + 0vw, 7.5rem);
@@ -173,7 +152,7 @@
   }
   .decorated-zone::after {
     left: 10px;
-    margin-block-start: 31px;
+    bottom: 10px;
   }
   .conteiner {
     margin-block-end: 51px;
@@ -248,9 +227,7 @@
     gap: 20px;
   }
   .content__gallery {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  .content__gallery {
     gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
