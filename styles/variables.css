@@ -187,7 +187,7 @@
 @media (width >= 1024px) {
   .content__section {
     grid-template-columns: 1fr 67%;
-    margin-block-start: 35px;
+    margin-block-start: 40px;
     margin-block-end: 40px;
   }
 }
@@ -196,7 +196,7 @@
   .section__question {
     grid-template-columns: repeat(3, 1fr);
     grid-column: 2 / 4;
-    margin-block-start: 20px;
+    margin-block-start: 30px;
     margin-block-end: 40px;
   }
 }

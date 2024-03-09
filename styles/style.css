@@ -57,8 +57,8 @@
 .header__theme-menu-button:hover {
   text-decoration: underline;
   cursor: pointer;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 0, 8px;
+  outline: 1px solid var(--accent-color);
+  padding: 0px 13px;
 }
 
 .header-title {
@@ -154,8 +154,22 @@
   letter-spacing: 0em;
   text-align: left;
   color: var(--text-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link {
+  line-height: 1;
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.link:hover {
+  border-block-end: 1px solid var(--text-color);
+}
+
+.link:focus-visible {
+  outline: 1px solid var(--color-text);
 }
 
 .adviсe {
@@ -176,7 +190,6 @@
 .section__question {
   display: grid;
   gap: 20px;
-  
 }
 
 .content__gallery-image {
