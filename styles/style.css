@@ -40,7 +40,6 @@
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
-  padding: 1px 13px 5px 10px;
   text-transform: lowercase;
   color: var(--header-botton);
 }
@@ -143,7 +142,6 @@
 }
 
 .heading__advice {
-  weight: 400;
   size: 18px;
   line-height: 23.4px;
   font-size: 18px;
@@ -153,7 +151,6 @@
 }
 
 .main__text {
-  weight: 400;
   size: 18px;
   line-height: 23.4px;
   text-align: left;
@@ -219,7 +216,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  min-height: 668px;
 }
 
 .footer__title {

@@ -43,6 +43,9 @@
   .header {
     min-height: 768px;
   }
+  .header__theme-menu-button {
+    padding: 1px 13px 1px 13px;
+  }
   .header-title {
     margin-block-start: 271px;
     font-size: clamp(9.8125rem, 9.8125rem + 0vw, 9.8125rem);
@@ -54,20 +57,20 @@
     height: 71px;
   }
   .question {
-    margin-block-end: 20px;
+    margin-block-end: 22px;
   }
   .second__section {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .first__section {
-    grid-template-columns: 1fr 67%;
+    grid-template-columns: 1fr 66%;
     margin-block-start: 60px;
   }
   .four__section {
     height: 1091px;
   }
   .third__section {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 66%;
   }
   .footer {
     max-height: 768px;
@@ -104,8 +107,11 @@
     padding-top: 189px;
     padding-right: 20px;
   }
+  .header__theme-menu-button {
+    padding: 1px 13px 1px 13px;
+  }
   .header-title {
-    margin-block-start: 164px;
+    margin-block-start: 176px;
     font-size: clamp(7.5rem, 7.5rem + 0vw, 7.5rem);
   }
   .header-description {
@@ -116,6 +122,7 @@
   }
   .question {
     margin-block-end: 20px;
+    width: 236px;
   }
   .first__section {
     margin-block-start: 60px;
@@ -124,14 +131,12 @@
   .third__section {
     grid-template-columns: 1fr 2fr;
   }
-  .question {
-    width: 236px;
-  }
   .four__section {
     height: 780px;
   }
   .footer {
     max-height: 1024px;
+    margin-block-start: 104px;
   }
   .footer__title {
     font-size: clamp(7.5rem, 7.5rem + 0vw, 7.5rem);
@@ -158,7 +163,7 @@
     margin-block-end: 51px;
   }
   .adviсe-head {
-    margin-block-start: 20px;
+    margin-block-start: 23px;
   }
   .header {
     min-height: 668px;
@@ -168,7 +173,7 @@
     padding-right: 10px;
   }
   .header-title {
-    margin-block-start: 60px;
+    margin-block-start: 66px;
     margin-inline-start: 10px;
     font-size: clamp(7.25rem, 7.25rem + 0vw, 7.25rem);
   }
@@ -189,6 +194,15 @@
   }
   .footer__title {
     font-size: clamp(7.25rem, 7.25rem + 0vw, 7.25rem);
+  }
+  .footer {
+    height: 668;
+  }
+  .header__theme-menu-button {
+    padding: 5px 11px 0px 0px;
+  }
+  .four__section {
+    height: 1400px;
   }
 }
 
