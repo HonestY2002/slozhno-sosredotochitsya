@@ -16,6 +16,7 @@
   --background-image: url(../images/cover-image-light.png);
   --header-botton: var(--text-color);
   --hover-botton: #353430;
+  --background-color: white;
 }
 
 .theme_light .REC {
@@ -35,6 +36,7 @@
     --background-image: url(../images/cover-image-light.png);
     --header-botton: var(--text-color);
      --hover-botton: #ff0070;
+     --background-color: white;
   }
 }
 /* сохраните этот селектор в приведённом виде.

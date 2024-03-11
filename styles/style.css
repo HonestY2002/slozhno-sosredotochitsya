@@ -3,7 +3,7 @@
 
 .page {
   font-size: 18px;
-  font-family: 'IBM Plex Mono', sans-serif;
+  font-family: "IBM Plex Mono", sans-serif;
   font-weight: 400;
   color: var(--description-color);
   background-color: var(--background-color);
@@ -34,8 +34,12 @@
   color: var(--header-botton);
 }
 
+.header__theme-menu-butto_active {
+  pointer-events: none;
+  border: 1px solid var(--text-color);
+}
+
 .header__theme-menu-button:focus {
-  outline: none;
 }
 
 .header__theme-menu-button:hover {
@@ -198,7 +202,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  
 }
 
 .footer__title {
@@ -206,7 +209,7 @@
   color: var(--title-color);
 }
 
-.main { 
+.main {
   padding: 0 20px;
 }
 
@@ -266,7 +269,6 @@
   .footer__title {
     font-size: clamp(9.8125rem, 9.8125rem + 0vw, 9.8125rem);
   }
-
 }
 
 @media (768px <= width < 1024px) {
