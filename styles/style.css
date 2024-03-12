@@ -358,7 +358,7 @@
     padding: 0 13px 5px 13px;
   }
   .header-title {
-    margin-block-start: 65px;
+    margin-block-start: 63px;
     margin-inline-start: 10px;
     font-size: clamp(7.25rem, 7.25rem + 0vw, 7.25rem);
   }
