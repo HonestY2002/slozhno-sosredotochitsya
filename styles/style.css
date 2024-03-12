@@ -284,9 +284,9 @@
     left: 20px;
     bottom: 20px;
   }
-  .header__theme-menu-button{
-padding: 4px 13px 2px 13px;
-}
+  .header__theme-menu-button {
+    padding: 4px 13px 2px 13px;
+  }
   .conteiner {
     margin-block-end: 80px;
   }
@@ -342,9 +342,9 @@ padding: 4px 13px 2px 13px;
     left: 10px;
     bottom: 10px;
   }
-.header__theme-menu-button{
-padding: 2px 13px 3px 13px;
-}
+  .header__theme-menu-button {
+    padding: 0px 11px 3px 11px;
+  }
   .conteiner {
     margin-block-end: 51px;
   }
@@ -359,7 +359,7 @@ padding: 2px 13px 3px 13px;
     padding-right: 10px;
   }
   .header-title {
-    margin-block-start: 69px;
+    margin-block-start: 66px;
     margin-inline-start: 10px;
     font-size: clamp(7.25rem, 7.25rem + 0vw, 7.25rem);
   }
