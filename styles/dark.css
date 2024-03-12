@@ -14,7 +14,7 @@
   --heading-text-color: #ff0070;
   --otline-color: 1px solid rgba(255, 0, 112, 0.4);
   --rec-indicator-color: #ff0070;
-  --background-color: var(--accent-text-color);
+  --background-color: #000028;
   --after-before-border: #ff0070;
   --header-botton: #ff0070;
 }
@@ -30,11 +30,12 @@
     --heading-text-color: #000028;
     --otline-color: 1px solid rgba(255, 0, 112, 0.4);
     --rec-indicator-color: #ff0070;
-    --background-color: var(--accent-text-color);
+    --background-color: #000028;
     --after-before-border: #ff0070;
     --header-botton: #ff0070;
   }
 }
+
 
 /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,

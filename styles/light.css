@@ -8,14 +8,19 @@
   --title-color: #ffc2e6;
   --text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
-  --accent-color: #353430;
+  --accent-color: #ff0070;
   --accent-text-color: #353430;
-  --heading-text-colorl: #353430;
+  --heading-shadow-color: #353430;
+  --heading-text-color: #353430;
   --otline-color: 1px solid rgba(50, 49, 45, 0.4);
   --rec-indicator-color: transparent;
-  --backkground-color: white;
-  --after-before-border: #353430;
+  --background-color: #fff;
+  --after-before-border: #ff0070;
   --header-botton: #353430;
+}
+
+.theme_light .rec {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,15 +28,20 @@
     --title-color: #ffc2e6;
     --text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
-    --accent-color: #353430;
+    --accent-color: #ff0070;
     --accent-text-color: #353430;
-    --heading-text-colorl: #353430;
+    --heading-shadow-color: #353430;
+    --heading-text-color: #353430;
     --otline-color: 1px solid rgba(50, 49, 45, 0.4);
     --rec-indicator-color: transparent;
-    --background-color: #fff1f7;
-    --after-before-border: #353430;
+    --background-color: #fff;
+    --after-before-border: #ff0070;
     --header-botton: #353430;
   }
+}
+
+.rec {
+  display: none;
 }
 
 /* сохраните этот селектор в приведённом виде.
