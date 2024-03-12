@@ -14,7 +14,6 @@
   --otline-color: 1px solid rgba(255, 0, 112, 0.4);
   --rec-indicator-color: #ff0070;
   --after-before-border: #ff0070;
-  --background-color: var(--accent-text-color);
   --background-image: url(../images/cover-image-dark.png);
   --header-botton: var(--accent-color);
   --hover-botton: #ff0070;
@@ -32,10 +31,10 @@
     --otline-color: 1px solid rgba(255, 0, 112, 0.4);
     --rec-indicator-color: #ff0070;
     --after-before-border: #ff0070;
-    --background-color: var(--accent-text-color);
     --background-image: url(../images/cover-image-dark.png);
     --header-botton: var(--accent-color);
     --hover-botton: #ff0070;
+    --background-color: #000028;
   }
 }
 

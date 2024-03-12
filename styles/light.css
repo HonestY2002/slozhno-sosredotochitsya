@@ -19,7 +19,7 @@
   --background-color: white;
 }
 
-.theme_light .REC {
+.page.theme_light .rec {
   display: none;
 }
 
@@ -32,13 +32,14 @@
     --heading-shadow-color: #353430;
     --heading-text-color: #353430;
     --otline-color: 1px solid rgba(50, 49, 45, 0.4);
-    --after-before-border: #ff0070;
+    --after-before-border: #353430;
     --background-image: url(../images/cover-image-light.png);
     --header-botton: var(--text-color);
-     --hover-botton: #ff0070;
-     --background-color: white;
+    --hover-botton: #ff0070;
+    --background-color: white;
   }
 }
+
 /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
