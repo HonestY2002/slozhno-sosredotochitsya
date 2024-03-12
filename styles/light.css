@@ -19,7 +19,7 @@
   --header-botton: #353430;
 }
 
-.theme_light .rec {
+.theme_light .rec-icon {
   display: none;
 }
 
@@ -38,10 +38,10 @@
     --after-before-border: #ff0070;
     --header-botton: #353430;
   }
-}
 
-.rec {
-  display: none;
+  .rec-icon {
+    display: none;
+  }
 }
 
 /* сохраните этот селектор в приведённом виде.
