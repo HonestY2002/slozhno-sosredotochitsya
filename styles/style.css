@@ -282,6 +282,9 @@
     padding-top: 189px;
     padding-right: 20px;
   }
+  .first__section {
+    grid-template-columns: 1fr 2fr;
+  }
   .header-title {
     margin-block-start: 176px;
     font-size: clamp(7.5rem, 7.5rem + 0vw, 7.5rem);
