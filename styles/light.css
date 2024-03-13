@@ -17,6 +17,7 @@
   --background-color: #fff;
   --after-before-border: #ff0070;
   --header-botton: #353430;
+  --header-text: #ff8dc8;
 }
 
 .theme_light .rec-icon {
@@ -37,6 +38,7 @@
     --background-color: #fff;
     --after-before-border: #ff0070;
     --header-botton: #353430;
+    --header-text: #ff8dc8;
   }
 
   .rec-icon {

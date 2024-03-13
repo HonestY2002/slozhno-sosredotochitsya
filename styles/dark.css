@@ -17,6 +17,7 @@
   --background-color: #000028;
   --after-before-border: #ff0070;
   --header-botton: #ff0070;
+  --header-text: #ff0070;
 }
 
 @media (prefers-solor-scheme: dark) {
@@ -33,9 +34,9 @@
     --background-color: #000028;
     --after-before-border: #ff0070;
     --header-botton: #ff0070;
+    --header-text: #ff0070;
   }
 }
-
 
 /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
