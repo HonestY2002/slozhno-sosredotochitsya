@@ -12,12 +12,13 @@
   --accent-text-color: #353430;
   --heading-shadow-color: #353430;
   --heading-text-color: #353430;
-  --otline-color: 1px solid rgba(50, 49, 45, 0.4);
   --rec-indicator-color: transparent;
   --background-color: #fff;
   --after-before-border: #ff0070;
   --header-botton: #353430;
   --header-text: #ff8dcb;
+  --link-color: #353430;
+  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
 }
 
 .theme_light .rec-icon {
@@ -33,13 +34,13 @@
     --accent-text-color: #353430;
     --heading-shadow-color: #353430;
     --heading-text-color: #353430;
-    --otline-color: 1px solid rgba(50, 49, 45, 0.4);
     --rec-indicator-color: transparent;
     --background-color: #fff;
     --after-before-border: #ff0070;
     --header-botton: #353430;
     --header-text: #ff8dcb;
-
+    --link-color: #353430;
+    --hover-color: 1px solid rgba(50, 49, 45, 0.4);
   }
 
   .rec-icon {

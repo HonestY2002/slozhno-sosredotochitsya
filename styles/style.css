@@ -39,12 +39,12 @@
 
 .header__theme-menu-button_active {
   pointer-events: none;
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--header-botton);
 }
 
 .header__theme-menu-button:hover {
   cursor: pointer;
-  outline: 1px solid var(--otline-color);
+  outline: var(--hover-color);
 }
 
 .header__theme-menu-button:focus {
@@ -173,7 +173,7 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid var(--header-text);
+  outline: 1px solid var(--link-color);
 }
 
 .adviсe {
